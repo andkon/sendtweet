@@ -12,7 +12,68 @@
 		A2C8349622CC25E900465654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C8349422CC25E900465654 /* Main.storyboard */; };
 		A2C8349822CC25EA00465654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C8349722CC25EA00465654 /* Assets.xcassets */; };
 		A2C8349B22CC25EA00465654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C8349922CC25EA00465654 /* LaunchScreen.storyboard */; };
+		A2C834C622CC3CFD00465654 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C834BF22CC3CED00465654 /* SwifteriOS.framework */; };
+		A2C834C722CC3CFD00465654 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2C834BF22CC3CED00465654 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C834BC22CC3CED00465654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C834B422CC3CED00465654 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		A2C834BE22CC3CED00465654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C834B422CC3CED00465654 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		A2C834C022CC3CED00465654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C834B422CC3CED00465654 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		A2C834C222CC3CED00465654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C834B422CC3CED00465654 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		A2C834C422CC3CED00465654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C834B422CC3CED00465654 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+		A2C834C822CC3CFD00465654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C834B422CC3CED00465654 /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2C834CA22CC3CFE00465654 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A2C834C722CC3CFD00465654 /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A2C8348D22CC25E900465654 /* sendtweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sendtweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +83,7 @@
 		A2C8349722CC25EA00465654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2C8349A22CC25EA00465654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2C8349C22CC25EA00465654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C834B422CC3CED00465654 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = "../../../Downloads/Swifter-master/Swifter.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C834C622CC3CFD00465654 /* SwifteriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +123,21 @@
 				A2C8349722CC25EA00465654 /* Assets.xcassets */,
 				A2C8349922CC25EA00465654 /* LaunchScreen.storyboard */,
 				A2C8349C22CC25EA00465654 /* Info.plist */,
+				A2C834B422CC3CED00465654 /* Swifter.xcodeproj */,
 			);
 			path = sendtweet;
+			sourceTree = "<group>";
+		};
+		A2C834B522CC3CED00465654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C834BD22CC3CED00465654 /* SwifterDemoiOS.app */,
+				A2C834BF22CC3CED00465654 /* SwifteriOS.framework */,
+				A2C834C122CC3CED00465654 /* SwifterMac.framework */,
+				A2C834C322CC3CED00465654 /* SwifterDemoMac.app */,
+				A2C834C522CC3CED00465654 /* SwifterTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +150,12 @@
 				A2C8348922CC25E900465654 /* Sources */,
 				A2C8348A22CC25E900465654 /* Frameworks */,
 				A2C8348B22CC25E900465654 /* Resources */,
+				A2C834CA22CC3CFE00465654 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A2C834C922CC3CFD00465654 /* PBXTargetDependency */,
 			);
 			name = sendtweet;
 			productName = sendtweet;
@@ -110,12 +188,56 @@
 			mainGroup = A2C8348422CC25E900465654;
 			productRefGroup = A2C8348E22CC25E900465654 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A2C834B522CC3CED00465654 /* Products */;
+					ProjectRef = A2C834B422CC3CED00465654 /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A2C8348C22CC25E900465654 /* sendtweet */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A2C834BD22CC3CED00465654 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = A2C834BC22CC3CED00465654 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A2C834BF22CC3CED00465654 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = A2C834BE22CC3CED00465654 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A2C834C122CC3CED00465654 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = A2C834C022CC3CED00465654 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A2C834C322CC3CED00465654 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = A2C834C222CC3CED00465654 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A2C834C522CC3CED00465654 /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = A2C834C422CC3CED00465654 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A2C8348B22CC25E900465654 /* Resources */ = {
@@ -141,6 +263,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C834C922CC3CFD00465654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = A2C834C822CC3CFD00465654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A2C8349422CC25E900465654 /* Main.storyboard */ = {
@@ -281,6 +411,7 @@
 		A2C834A022CC25EA00465654 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYRSGL7QFF;
@@ -299,6 +430,7 @@
 		A2C834A122CC25EA00465654 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYRSGL7QFF;
